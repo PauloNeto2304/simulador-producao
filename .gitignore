@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.streamlit/secrets.toml
+# planilhas com dados reais da fábrica não vão para o GitHub
+data/*.xlsx
+!data/template_fabrica.xlsx
+!data/exemplo_*.xlsx
+~$*.xlsx
